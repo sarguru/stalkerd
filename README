@@ -1,0 +1,1 @@
+An experiment with dovecot post-login feature + beanstalkd server. Takes the load quite well as of now. Multiple producers can be added depending on the service.
