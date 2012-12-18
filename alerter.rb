@@ -138,7 +138,7 @@ loop do
     unless lr[0].nil? 
     lrs = lr[0].chomp
     end
-    mail_from = 'admin@deeproot.in'
+    mail_from = Config[:mail_from]
     message_string = "Username #{username} has logged in from unusual location #{last_loc}"
     send_alert(lrs,Choice[:mail_from],message_string)
   end 
